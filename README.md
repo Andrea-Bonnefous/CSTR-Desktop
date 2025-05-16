@@ -1,4 +1,4 @@
-![CTSR Diagram](https://www.comsol.com/blogs/wp-content/uploads/2015/02/schematic-cstr-comsol.png)
+![CTSR](https://raw.githubusercontent.com/plotly/dash-sample-apps/main/apps/dash-cstr/images/reactor_diagram.png)
 
 # Continuous Flow Reactor Simulator (CTSR)
 
