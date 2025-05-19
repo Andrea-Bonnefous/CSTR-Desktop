@@ -4,6 +4,6 @@
 
 This project was developed as part of the **Practical Programming in Chemistry (CHE-200)** course at EPFL.
 
-CTSR is a simple yet flexible **continuous reactor simulator** designed to help students and researchers visualize how **recycle streams** affect conversion, flow rates, and concentrations in steady-state systems.
-
-It includes a modular backend and an interactive web interface to adjust key parameters (flow rate, conversion, residence time, recycle ratio, etc.) and observe their effect.(a modifier)
+**CTSR** is a flexible and modular simulator for continuous flow stirred tank reactors.  
+It models one or more chemical reactions, including recycle streams, reversible and irreversible steps, and temperature effects.  
+The tool helps analyze dynamic behavior and optimize key process variables to **maximize the selectivity** toward a desired product.
