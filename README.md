@@ -22,22 +22,29 @@ This project was developed by three bachelor students in Chemistry and Chemical 
 
 - **Andrea Bonnefous**        [![GitHub](https://img.shields.io/badge/GitHub-Andrea--Bonnefous-black?logo=github)](https://github.com/Andrea-Bonnefous)
 
-## 📁 Project Structure
-📁 src/                  → Simulation engine (Python)
+### ✨ Features
 
-📁 notebooks/            → Final Jupyter notebook with results
+- 🧪 Simulate a **Continuous Stirred Tank Reactor (CSTR)** with a **recycle stream**
+- 🔁 Support for **multiple reactions**:  
+  - 🔄 Reversible and irreversible  
+  - 🌱 Parallel and competitive pathways
+- 🌡️ Include **temperature effects** and **energy balances**
+- 🎛️ Tune key process variables:  
+  - Residence time, recycle ratio, temperature...
+- 📊 Real-time **visualization** of concentration profiles and conversion
+- 🎯 **Optimize** the system to maximize **selectivity** towards the desired product
 
-📁 site/                 → Web interface (Streamlit or HTML)
+---
 
-📁 tests/                → Unit tests
+### 🧠 What is a CSTR?
 
-📁 assets/               → Images and static content
+A Continuous Stirred Tank Reactor (CSTR) is a fundamental type of reactor used in chemical engineering. In a CSTR, reactants are continuously introduced into a well-mixed tank, and products are simultaneously withdrawn. The constant stirring ensures that the composition and temperature are uniform throughout the reactor. This configuration allows the system to operate at steady-state and makes it particularly suitable for continuous large-scale processes.
 
-📄 environment.yml       → Conda environment
+CSTRs offer several practical advantages. Their design is relatively simple and easy to scale up, making them cost-effective for industrial production. They allow precise control over key variables such as temperature, pressure, and residence time. In addition, because the reactor is continuously fed and emptied, it is ideal for automated, uninterrupted production lines. The constant mixing also helps avoid the formation of hot spots or concentration gradients, which is especially important for sensitive reactions.
 
-📄 pyproject.toml        → Project configuration
+CSTRs are widely used in industrial applications. For example, in the **production of polyethylene** (plastic), CSTRs are employed to maintain a controlled polymerization environment and ensure uniform product quality. The steady-state operation and good heat transfer properties make them suitable for exothermic reactions like this. Another example is **wastewater treatment**, where CSTRs are used in biological reactors to maintain optimal conditions for microbial degradation of pollutants. The continuous flow and mixing ensure that the bacteria are evenly distributed and active throughout the reactor, maximizing the treatment efficiency.
 
-📄 LICENSE.txt           → Project license
 
-📄 README.md             → This file
+
+
 
