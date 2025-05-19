@@ -1,4 +1,4 @@
-![CTSR Diagram](./assets/Image%20README.pdfctsr_diagram.png)
+![CTSR Logo](./assets/Image_README.png)
 
 # Continuous Flow Reactor Simulator (CTSR)
 
