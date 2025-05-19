@@ -1,9 +1,0 @@
-# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 08e8b92
-_src_path: gh:schwallergroup/copier-liac-minimal
-author_email: andrea.bonnefous@epfl.ch
-author_name: Andrea Bonnefous
-github_org: Andrea-Bonnefous
-package_name: cdkpackage
-project_name: cdkpackage
-short_description: CDK Python package for depiction
