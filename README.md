@@ -11,7 +11,6 @@ The tool helps analyze dynamic behavior and optimize key process variables to **
 toward a desired product.
 
 ---
-
 ### 👥 Team
 
 This project was developed by three bachelor students in Chemistry and Chemical Engineering at EPFL, as part of the CHE-200 course.
@@ -22,6 +21,7 @@ This project was developed by three bachelor students in Chemistry and Chemical 
 
 - **Andrea Bonnefous**        [![GitHub](https://img.shields.io/badge/GitHub-Andrea--Bonnefous-black?logo=github)](https://github.com/Andrea-Bonnefous)
 
+---
 ### ✨ Features
 
 - 🧪 Simulate a **Continuous Stirred Tank Reactor (CSTR)** with a **recycle stream**
@@ -35,7 +35,6 @@ This project was developed by three bachelor students in Chemistry and Chemical 
 - 🎯 **Optimize** the system to maximize **selectivity** towards the desired product
 
 ---
-
 ### 🧠 What is a CSTR?
 
 A Continuous Stirred Tank Reactor (CSTR) is a fundamental type of reactor used in chemical engineering. In a CSTR, reactants are continuously introduced into a well-mixed tank, and products are simultaneously withdrawn. The constant stirring ensures that the composition and temperature are uniform throughout the reactor. This configuration allows the system to operate at steady-state and makes it particularly suitable for continuous large-scale processes.
@@ -44,7 +43,71 @@ CSTRs offer several practical advantages. Their design is relatively simple and 
 
 CSTRs are widely used in industrial applications. For example, in the **production of polyethylene** (plastic), CSTRs are employed to maintain a controlled polymerization environment and ensure uniform product quality. The steady-state operation and good heat transfer properties make them suitable for exothermic reactions like this. Another example is **wastewater treatment**, where CSTRs are used in biological reactors to maintain optimal conditions for microbial degradation of pollutants. The continuous flow and mixing ensure that the bacteria are evenly distributed and active throughout the reactor, maximizing the treatment efficiency.
 
+---
+### ⚙️ How does it work?
+
+The CTSR Simulator follows a modular pipeline composed of the following steps:
+
+1. **Reaction Input**
+   - The user enters one or more chemical reactions.
+   - The optional PubChem scraper can retrieve kinetic and thermodynamic parameters.
+2. **Parameter Configuration**
+...
+
+---
+## 🗂️ Project Structure
+
+```bash
+src/                  → Simulation engine (Python)
+  └── projet_chem200/ → Core logic and scraping tool
+
+notebooks/            → Final Jupyter notebook with results
+
+site/                 → Web interface (Streamlit or HTML)
+
+tests/                → Unit tests
+
+assets/               → Images and static content
+
+environment.yml       → Conda environment file  
+pyproject.toml        → Project configuration  
+LICENSE.txt           → Project license  
+README.md             → This file
+
+---
+### 🛠️ Installation & Requirements
+
+This project uses a Conda environment to manage dependencies.  
+All required packages are listed in the file `environment.yml`.
+
+#### 📄 Requirements
+
+Main packages included:
+- `numpy`, `scipy` — numerical computations
+- `matplotlib` — plotting
+- `rdkit` — cheminformatics and molecular handling
+- `streamlit` — web interface
+- `requests`, `beautifulsoup4` — PubChem data scraper
+- `jupyterlab` — for notebook usage
+
+You can create and activate the environment with the following commands:
+
+```bash
+conda env create -f environment.yml
+conda activate ppchem
+
+🚀 Run the project
+
+To launch the interface (if using Streamlit): streamlit run site/app.py
+
+To open the notebook: jupyter lab
 
 
+
+
+
+
+
+ß
 
 
