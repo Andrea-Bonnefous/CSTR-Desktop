@@ -24,15 +24,30 @@ This project was developed by three bachelor students in Chemistry and Chemical 
 ---
 ### ✨ Features
 
-- 🧪 Simulate a **Continuous Stirred Tank Reactor (CSTR)** with a **recycle stream**
-- 🔁 Support for **multiple reactions**:  
-  - 🔄 Reversible and irreversible  
-  - 🌱 Parallel and competitive pathways
-- 🌡️ Include **temperature effects** and **energy balances**
-- 🎛️ Tune key process variables:  
-  - Residence time, recycle ratio, temperature...
-- 📊 Real-time **visualization** of concentration profiles and conversion
-- 🎯 **Optimize** the system to maximize **selectivity** towards the desired product
+🔁 **Recycle loop integration**  
+Simulates a continuous stirred-tank reactor (CSTR) with a recycle stream.
+
+🧪 **Steady-state calculations**  
+Computes concentrations for key species (e.g. CO, CH₃OH, CH₃COOH).
+
+🔄 **Feed and recycle contributions**  
+Handles both fresh feed and recycle inputs.
+
+🧮 **Reactor performance metrics**  
+Calculates:
+- ⏱️ Residence time  
+- 💧 Exit flow rate  
+- ⚛️ Reaction rates  
+- 📉 Reactant conversions
+
+🌡️ **Adjustable temperature and catalyst**  
+Specify operating temperature and catalyst type (e.g. Silver).
+
+📊 **Result summary**  
+Outputs a clean textual summary with all key parameters.
+
+📈 **Graphical visualization**  
+Displays a matplotlib plot of concentration profiles.
 
 ---
 ### 🧠 What is a CSTR?
