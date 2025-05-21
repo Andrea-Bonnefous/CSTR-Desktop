@@ -88,10 +88,11 @@ The CTSR Simulator follows a modular pipeline composed of the following steps:
 
 5. **Web Interface**
    ...
+
 ---
 ## 🗂️ Project Structure
-
-CTSR-simulator/
+```bash
+CSTR/
 ├── assets/                  # Images and visual assets (for documentation)
 ├── notebooks/              # Experimental or legacy notebooks (not used in final code)
 │   ├── Code finale (GPT).ipynb       # Early version of the simulation
@@ -104,6 +105,7 @@ CTSR-simulator/
 ├── README.md               # Project documentation
 ├── environment.yml         # Conda environment configuration
 ├── pyproject.toml          # Python project configuration (optional)
+
 ---
 ### 🛠️ Installation & Requirements
 
@@ -131,13 +133,3 @@ conda activate ppchem
 To launch the interface (if using Streamlit): streamlit run site/app.py
 
 To open the notebook: jupyter lab
-
-
-
-
-
-
-
-ß
-
-
