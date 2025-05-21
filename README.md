@@ -59,16 +59,35 @@ CSTRs offer several practical advantages. Their design is relatively simple and 
 CSTRs are widely used in industrial applications. For example, in the **production of polyethylene** (plastic), CSTRs are employed to maintain a controlled polymerization environment and ensure uniform product quality. The steady-state operation and good heat transfer properties make them suitable for exothermic reactions like this. Another example is **wastewater treatment**, where CSTRs are used in biological reactors to maintain optimal conditions for microbial degradation of pollutants. The continuous flow and mixing ensure that the bacteria are evenly distributed and active throughout the reactor, maximizing the treatment efficiency.
 
 ---
-### ⚙️ How does it work?
+## ⚙️ How does it work?
 
 The CTSR Simulator follows a modular pipeline composed of the following steps:
 
-1. **Reaction Input**
-   - The user enters one or more chemical reactions.
-   - The optional PubChem scraper can retrieve kinetic and thermodynamic parameters.
-2. **Parameter Configuration**
-...
+1. **🧪 Reaction Input**
+   - The user specifies one or more chemical reactions.
+   - The optional **PubChem/Open Reaction Database scraper** allows automatic retrieval of kinetic and thermodynamic parameters (e.g. enthalpy, rate constants).
 
+2. **⚙️ Parameter Configuration**
+   - Users define operating parameters such as:
+     - Reactor volume
+     - Flow rate
+     - Temperature
+     - Catalyst identity
+
+3. **🧮 Simulation Execution**
+   - The model solves mass balance equations at steady state.
+   - It calculates:
+     - Species concentrations
+     - Reaction rates
+     - Residence time
+     - Conversion levels
+
+4. **📊 Result Visualization**
+   - The simulator prints a clean summary to the console.
+   ...
+
+5. **Web Interface**
+   ...
 ---
 ## 🗂️ Project Structure
 
