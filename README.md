@@ -105,7 +105,7 @@ CSTR/
 ├── README.md               # Project documentation
 ├── environment.yml         # Conda environment configuration
 ├── pyproject.toml          # Python project configuration (optional)
-
+```
 ---
 ### 🛠️ Installation & Requirements
 
