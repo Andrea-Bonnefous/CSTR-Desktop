@@ -8,10 +8,11 @@ from typing import Dict, List, Any
 import matplotlib.pyplot as plt
 import io
 import base64
+import sys, os
+sys.path.append(os.path.abspath("src"))
 
 # Import your actual classes (make sure these are in the same directory or properly installed)
-from final_cstr_simulator import CSTRSimulator, ReactionDatabase
-
+from projet_chem200.cstr_simulator.functions import CSTRSimulator, ReactionDatabase
 class StreamlitCSTRApp:
     """Streamlit interface for CSTR Simulator with process flow visualization"""
     
