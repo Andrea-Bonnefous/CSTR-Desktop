@@ -1,4 +1,4 @@
-# CSTR-Desktop
+# CSTR-Desktop 2
 ![CTSR Logo](./assets/Image_README.png)
 
 This project was developed as part of the
