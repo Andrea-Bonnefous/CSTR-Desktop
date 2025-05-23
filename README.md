@@ -133,6 +133,8 @@ After activating the environment, run the main application:
 ```bash
 python main.py
 
-To launch the interface (if using Streamlit): streamlit run site/app.py
+#To launch the interface (if using Streamlit):
+streamlit run site/app.py
 
-To open the notebook: jupyter lab
+#To open the notebook:
+jupyter lab
