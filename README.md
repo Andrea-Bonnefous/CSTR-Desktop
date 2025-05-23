@@ -1,4 +1,4 @@
-# CSTR-Desktop 2
+# CSTR-Desktop
 ![CTSR Logo](./assets/Image_README.png)
 
 This project was developed as part of the
@@ -111,7 +111,7 @@ CTSR/
 ├── LICENSE.txt
 ├── README.md                         # Project documentation
 └── environment.yml                   # Conda environment file with all dependencies
-
+```
 ---
 ### 🛠️ Installation & Requirements
 
@@ -121,29 +121,23 @@ All required packages are listed in the file `environment.yml`.
 #### 📄 Requirements
 
 Main packages included:
-- `numpy`, `scipy` — numerical computations
+
+- `numpy`, `scipy` — numerical computations and optimization
 - `matplotlib` — plotting
-- `pandas` — data analysis
+- `pandas` — data management
 - `streamlit` — web interface
-- `tkinter` — graphical usage interface
-- `json`- data storage
+- `tkinter` — desktop interface (Tk GUI)
+- `json` — data storage (Python standard)
 - `jupyterlab` — for notebook usage
 
 You can create and activate the environment with the following commands:
 
 ```bash
-conda env create -f environment.yml
-conda activate cstr-desktop
-```
-🚀 Run the project
-
-After activating the environment, run the main application:
-```bash
+# ▶️ Run the main simulation script (if implemented)
 python main.py
 
-#To launch the interface (if using Streamlit):
-streamlit run site/app.py
+# 🌐 Launch the web interface (Streamlit version)
+streamlit run src/projet_chem200/cstr_streamlit/final_streamlit_cstr4.py
 
-#To open the notebook:
-jupyter lab
-```
+# 🧪 Open the main interactive notebook
+jupyter lab notebooks/CSTR_simulation.ipynb
