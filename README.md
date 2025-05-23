@@ -115,9 +115,10 @@ All required packages are listed in the file `environment.yml`.
 Main packages included:
 - `numpy`, `scipy` — numerical computations
 - `matplotlib` — plotting
-- `rdkit` — cheminformatics and molecular handling
+- `pandas` — data analysis
 - `streamlit` — web interface
 - `tkinter` — graphical usage interface
+- `json`- ¨data storage
 - `jupyterlab` — for notebook usage
 
 You can create and activate the environment with the following commands:
