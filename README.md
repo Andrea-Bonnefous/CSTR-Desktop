@@ -118,7 +118,7 @@ Main packages included:
 - `pandas` — data analysis
 - `streamlit` — web interface
 - `tkinter` — graphical usage interface
-- `json`- ¨data storage
+- `json`- data storage
 - `jupyterlab` — for notebook usage
 
 You can create and activate the environment with the following commands:
