@@ -4,12 +4,12 @@
 This project was developed as part of the
 **Practical Programming in Chemistry (CHE-200)** course at EPFL.
 
-**CSTR** is a flexible and modular simulator for continuous flow stirred tank reactors. It models
-one or more chemical reactions, including recycle streams, reversible and irreversible steps, and
+**CSTR** is a flexible and modular simulator for a continuous flow stirred tank reactor. It models
+a chemical reactions, including recycle streams, reversible and irreversible steps, and
 temperature effects.
 
 The tool helps analyze dynamic behavior and optimize key process variables to **maximize the selectivity** 
-toward a desired product.
+towards a desired product.
 
 ---
 ### 👥 Team
@@ -41,14 +41,14 @@ Calculates:
 - ⚛️ Reaction rates  
 - 📉 Reactant conversions
 
-🌡️ **Adjustable temperature and catalyst**  
-Specify operating temperature and catalyst type (e.g. Silver).
+🌡️ **Adjustable temperature**  
+Specify operating temperature.
 
 📊 **Result summary**  
 Outputs a clean textual summary with all key parameters.
 
 📈 **Graphical visualization**  
-Displays a matplotlib plot of concentration profiles.
+Displays a flowchart that represents the process
 
 ---
 ### 🧠 What is a CSTR?
@@ -65,15 +65,14 @@ CSTRs are widely used in industrial applications. For example, in the **producti
 The CTSR Simulator follows a modular pipeline composed of the following steps:
 
 1. **🧪 Reaction Input**
-   - The user specifies one or more chemical reactions.
-   - The optional **PubChem/Open Reaction Database scraper** allows automatic retrieval of kinetic and thermodynamic parameters (e.g. enthalpy, rate constants).
+   - The user specifies one chemical reactions from the database provided.
+   - The program allows automatic retrieval of kinetic and thermodynamic parameters (e.g. Activation energy, rate constants).
 
 2. **⚙️ Parameter Configuration**
    - Users define operating parameters such as:
      - Reactor volume
      - Flow rate
      - Temperature
-     - Catalyst identity
 
 3. **🧮 Simulation Execution**
    - The model solves mass balance equations at steady state.
@@ -83,12 +82,10 @@ The CTSR Simulator follows a modular pipeline composed of the following steps:
      - Residence time
      - Conversion levels
 
-4. **📊 Result Visualization**
-   - The simulator prints a clean summary to the console.
-   ...
 
-5. **Web Interface**
-   ...
+4. **Web Interface**
+   - A streamlit interface is created representing displaying a scheme of a flowchart representing the reaction
+   - The results of the simulations are displayed
 
 ---
 ## 🗂️ Project Structure
