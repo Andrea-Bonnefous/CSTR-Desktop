@@ -117,16 +117,20 @@ Main packages included:
 - `matplotlib` — plotting
 - `rdkit` — cheminformatics and molecular handling
 - `streamlit` — web interface
-- `requests`, `beautifulsoup4` — PubChem data scraper
+- `tkinter` — graphical usage interface
 - `jupyterlab` — for notebook usage
 
 You can create and activate the environment with the following commands:
 
 ```bash
 conda env create -f environment.yml
-conda activate ppchem
+conda activate cstr-desktop
 
 🚀 Run the project
+
+After activating the environment, run the main application:
+```bash
+python main.py
 
 To launch the interface (if using Streamlit): streamlit run site/app.py
 
