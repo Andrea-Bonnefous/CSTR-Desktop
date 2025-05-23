@@ -130,6 +130,8 @@ Python 3.10
 - `json` — data storage (Python standard)
 - `jupyterlab` — for notebook usage
 
+```bash
+pip install requirements
 You can create and activate the environment with the following commands:
 
 ```bash
