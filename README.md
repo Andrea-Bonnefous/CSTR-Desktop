@@ -92,30 +92,26 @@ The CTSR Simulator follows a modular pipeline composed of the following steps:
 ```bash
 ## 📦 Project Structure
 
-```
 CTSR/
-├── assets/                      # Images and diagrams for documentation
-│   ├── Image_README.png
-│
-├── notebooks/                   # Jupyter notebooks for development and demos
-│   ├── CSTR_simulation.ipynb    # Main interactive notebook to explore key functions
-│
+├── assets/                           # Images and diagrams for documentation
+│   └── Image_README.png
+├── notebooks/                        # Jupyter notebooks for development and demos
+│   └── CSTR_simulation.ipynb         # Main interactive notebook to explore key functions
 ├── src/
 │   └── projet_chem200/
 │       ├── cstr_simulator/
-│       │   ├── __pycache__/
-│       │   └── functions.py     # Core simulator logic: CSTRSimulator, methods, kinetics
+│       │   ├── pycache/
+│       │   └── functions.py          # Core simulator logic: CSTRSimulator, methods, kinetics
 │       └── cstr_streamlit/
 │           ├── .DS_Store
 │           └── final_streamlit_cstr4.py  # Streamlit frontend for the simulator
-│
-├── tests/                       # Unit tests for core components
+├── tests/                            # Unit tests for core components
 │   ├── test_fonctions.py
 │   └── test_simulation.py
 ├── LICENSE.txt
-├── README.md                    # Project documentation
-├── environment.yml              # Conda environment file with all dependencies
-```
+├── README.md                         # Project documentation
+└── environment.yml                   # Conda environment file with all dependencies
+
 ---
 ### 🛠️ Installation & Requirements
 
