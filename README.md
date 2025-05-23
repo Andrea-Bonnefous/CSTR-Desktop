@@ -130,11 +130,21 @@ Python 3.10
 - `json` — data storage (Python standard)
 - `jupyterlab` — for notebook usage
 
-```bash
-pip install -r requirements.txt
-You can create and activate the environment with the following commands:
-```
+✅ Getting Started with a Clean Environment
 
+To ensure smooth setup and compatibility, we recommend creating a dedicated Conda environment for the project.
+
+🧪 Create the environment
+```bash
+# Clone the repository (if not already done)
+git clone https://github.com/Andrea-Bonnefous/CTSR-Desktop.git
+cd CTSR-Desktop
+
+# Create and activate the environment from the YAML file
+conda env create -f environment.yml
+conda activate cstr_env
+```
+🚀 Run the project
 ```bash
 # ▶️ Run the main simulation script (if implemented)
 python main.py
@@ -144,3 +154,4 @@ streamlit run src/projet_chem200/cstr_streamlit/final_streamlit_cstr4.py
 
 # 🧪 Open the main interactive notebook
 jupyter lab notebooks/CSTR_simulation.ipynb
+```
