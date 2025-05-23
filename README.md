@@ -155,3 +155,22 @@ streamlit run src/projet_chem200/cstr_streamlit/final_streamlit_cstr4.py
 # 🧪 Open the main interactive notebook
 jupyter lab notebooks/CSTR_simulation.ipynb
 ```
+# Coverage:
+Name                                        Stmts   Miss  Cover
+---------------------------------------------------------------
+tests\functions.py                            368     65    82%
+tests\test_calculate_conversion.py             16      1    94%
+tests\test_calculate_elemental_balance.py      16      1    94%
+tests\test_calculate_reaction_rates.py         14      1    93%
+tests\test_calculate_yield.py                  14      1    93%
+tests\test_create_visualization.py             15      1    93%
+tests\test_database.py                          9      1    89%
+tests\test_mass_balance_adjustment.py          13      1    92%
+tests\test_optimize_temperature.py             13      1    92%
+tests\test_print_results.py                    19      1    95%
+tests\test_reaction_rate.py                    17      2    88%
+tests\test_run_simulation.py                   16      1    94%
+tests\test_set_parameters.py                   22      1    95%
+tests\test_solve_steady_state.py               14      1    93%
+---------------------------------------------------------------
+TOTAL                                         566     79    86%
