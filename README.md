@@ -133,6 +133,7 @@ Python 3.10
 ```bash
 pip install requirements
 You can create and activate the environment with the following commands:
+```
 
 ```bash
 # ▶️ Run the main simulation script (if implemented)
