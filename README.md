@@ -121,7 +121,7 @@ All required packages are listed in the file `environment.yml`.
 #### 📄 Requirements
 
 Main packages included:
-
+Python 3.10
 - `numpy`, `scipy` — numerical computations and optimization
 - `matplotlib` — plotting
 - `pandas` — data management
