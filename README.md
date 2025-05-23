@@ -131,7 +131,7 @@ Python 3.10
 - `jupyterlab` — for notebook usage
 
 ```bash
-pip install requirements
+pip install -r requirements.txt
 You can create and activate the environment with the following commands:
 ```
 
