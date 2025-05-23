@@ -126,7 +126,7 @@ You can create and activate the environment with the following commands:
 ```bash
 conda env create -f environment.yml
 conda activate cstr-desktop
-
+```
 🚀 Run the project
 
 After activating the environment, run the main application:
@@ -138,3 +138,4 @@ streamlit run site/app.py
 
 #To open the notebook:
 jupyter lab
+```
