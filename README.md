@@ -90,19 +90,31 @@ The CTSR Simulator follows a modular pipeline composed of the following steps:
 ---
 ## 🗂️ Project Structure
 ```bash
-CSTR/
-├── assets/                  # Images and visual assets (for documentation)
-├── notebooks/              # Experimental or legacy notebooks (not used in final code)
-│   ├── Code finale (GPT).ipynb       # Early version of the simulation
-│   └── reaction_data.ipynb          # Initial prototype of the scraper (now merged)
-├── site/                   # Streamlit user interface (in development)
+## 📦 Project Structure
+
+```
+CTSR/
+├── assets/                      # Images and diagrams for documentation
+│   ├── Image_README.png
+│
+├── notebooks/                   # Jupyter notebooks for development and demos
+│   ├── CSTR_simulation.ipynb    # Main interactive notebook to explore key functions
+│
 ├── src/
 │   └── projet_chem200/
-│       └── simulation.py   # Unified core logic: CSTR model + embedded PubChem scraper
-├── tests/                  # Optional unit tests
-├── README.md               # Project documentation
-├── environment.yml         # Conda environment configuration
-├── pyproject.toml          # Python project configuration (optional)
+│       ├── cstr_simulator/
+│       │   ├── __pycache__/
+│       │   └── functions.py     # Core simulator logic: CSTRSimulator, methods, kinetics
+│       └── cstr_streamlit/
+│           ├── .DS_Store
+│           └── final_streamlit_cstr4.py  # Streamlit frontend for the simulator
+│
+├── tests/                       # Unit tests for core components
+│   ├── test_fonctions.py
+│   └── test_simulation.py
+├── LICENSE.txt
+├── README.md                    # Project documentation
+├── environment.yml              # Conda environment file with all dependencies
 ```
 ---
 ### 🛠️ Installation & Requirements
